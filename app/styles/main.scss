@@ -30,3 +30,15 @@ body {
     line-height: 1;
     letter-spacing: -1px;
 }
+
+.google-map-canvas,
+.google-map-canvas * { box-sizing:content-box; }
+
+.google-map-canvas {
+    height: 400px;
+    overflow: hidden;
+}
+
+.google-map-canvas img {
+    max-width: none;
+}

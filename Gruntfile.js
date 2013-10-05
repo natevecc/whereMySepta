@@ -341,6 +341,12 @@ module.exports = function (grunt) {
           ]
         }
       }
+    },
+    'bower-install': {
+      target: {
+        html: 'app/index.html'//,
+        //ignorePath: 'app/'
+      }
     }
   });
 
